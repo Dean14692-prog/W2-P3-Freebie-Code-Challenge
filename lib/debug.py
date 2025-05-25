@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 from models import Company, Dev, Freebie , Base
 
 # Create an SQLite database engine and initialize the database
-engine = create_engine('sqlite:///freebies.db')
+engine = create_engine('sqlite:///database.db')
 
 Base.metadata.create_all(engine)
 
